@@ -8,3 +8,204 @@ for a in range(len(textlines)):
 	b+=1
 
 textfile.close()
+
+
+##########
+
+import os
+import netmiko
+import pandas as pd
+from datetime import datetime
+import datetime
+import numpy as np
+from mac_vendor_lookup import MacLookup
+from shutil import copyfile
+from datetime import datetime, date, time, timezone
+import datetime
+import time
+from datetime import datetime
+import difflib
+timestr = time.strftime("%Y%m%d_%H%M")
+now = datetime.now()
+dt_string = now.strftime("%m/%d/%Y %H:%M")
+import datetime
+timenow = datetime.datetime.now()
+timeafter10minutes = timenow + datetime.timedelta(minutes=60)
+
+os.chdir('\\\\usridata01\\\Groups\\\MISDATA\\\Python\\\Cisco\\\DA')
+# os.chdir('//usridata01/Groups/MISDATA/Python/Cisco/DA')
+os.getcwd()
+
+uname = os.environ.get('SecretUser')
+pwd = os.environ.get('SecretPassword')
+
+        
+with open("buildingnamesv1.txt", "r") as line:
+    List1 = line.read().splitlines()
+
+with open("ipaddressv1.txt", "r") as line:
+    List = line.read().splitlines()
+    #print(List)
+    b=0
+    for a in List:
+        try:
+            var1= List[b]
+            print(var1)
+            connection=netmiko.ConnectHandler(ip=var1, device_type="cisco_ios", username=uname, password=pwd)
+            c1 ="show mac address-table | include /0/"
+            c2 ="show interfaces counters"
+            c3 ="show cdp neighbors | include 4506"
+            c4 ="show interfaces status | include connected"
+
+            text_file1 = open("showmacaddress.txt", "w+")
+            text_file1.write(connection.send_command(c1))
+            text_file1.close()
+
+            text_file2 = open("showintcounters.txt", "w+")
+            text_file2.write(connection.send_command(c2))
+            text_file2.close()
+
+            text_file3 = open("showcdpneighbors.txt", "w+")
+            text_file3.write(connection.send_command(c3))
+            text_file3.close()
+
+            text_file4 = open("showintstatus.txt", "w+")
+            text_file4.write(connection.send_command(c4))
+            text_file4.close()
+
+            connection.disconnect()
+			
+            column_names1 = ["Vlan","MacAddress", "Type", "Ports"]
+            column_names2 = ["Port","InOctets", "InUcastPkts", "InMcastPkts", "InBcastPkts"]
+            column_names3 = ["SW","G","RemotePort", "Number", "r","s","i","SW1","Gi","LocalPort"]
+            column_names4 = ["Port","Description", "Status", "Vlan", "duplex", "speed","TX"]
+			
+            df1 = pd.DataFrame(columns = column_names1)
+            df1 = pd.read_csv("showmacaddress.txt", delimiter=r"\s+",names=column_names1)
+            df1['Datetime'] = dt_string
+            df1['SwitchIP'] = var1
+            df1.to_csv('showmacaddress.csv', mode='a', header=False)
+		
+            df2 = pd.DataFrame(columns = column_names2)
+            df2 = pd.read_csv("showintcounters.txt", delimiter=r"\s+",names=column_names2)
+            df2['Datetime'] = dt_string
+            df2['SwitchIP'] = var1
+            df22 = df2
+
+            df3 = pd.DataFrame(columns = column_names3)
+            df3 = pd.read_csv("showcdpneighbors.txt", delimiter=r"\s+",names=column_names3)
+            #df3 = pd.read_csv("showcdpneighbors.txt", delimiter=r"\s+")
+            df3['Datetime'] = dt_string
+            df3['SwitchIP'] = var1
+            df3.to_csv('showcdpneighbors.csv', mode='a', header=False)
+            print(df3)
+			
+            df4 = pd.DataFrame(columns = column_names1)
+            df4 = pd.read_csv("showintstatus.txt", delimiter=r"\s+",names=column_names4)
+            df4['Datetime'] = dt_string
+            df4['SwitchIP'] = var1
+            df4['Building'] = List1[b]
+            df4.to_csv('showintstatus.csv', mode='a', header=False)
+			
+            ###
+            ## df2= df2[df2.Port != 'Port']
+            a = df2.index[df2.Port == 'Port']
+            print(a)
+            df2 = df2[1:a[1]]
+            df22 = df22[a[1]+1:]
+            ###
+            df2.to_csv('showintcounters_in.csv', mode='a', header=False)
+            df22.to_csv('showintcounters_out.csv', mode='a', header=False)
+	
+            # df2.to_csv('showintcounters_in.csv', header=False)
+            # df22.to_csv('showintcounters_out.csv', header=False)
+		
+            print("Building IDF -->", List1[b])
+            b+=1
+        except Exception:
+            print ("oh no there is issue connecting"+var1+ " device. Don't worry this script will continue to next device")
+            print(var1)
+            b+=1
+            continue
+
+
+###########################
+## To remove trunk mac addresses
+## df1[(df1.Ports == 'Te6/0/38') & (df1.SwitchIP == '10.30.60.77') & (df1.Datetime == dt_string)]
+## df1[(df1.Ports == 'Te1/0/48') & (df1.SwitchIP == '10.30.60.78') & (df1.Datetime == dt_string)]
+## no good df5 = df5[(df5.Ports != 'Te6/0/38') & (df5.SwitchIP != '10.30.60.77')]
+## no good df5 = df5[(df5.Ports != 'Te1/0/48') & (df5.SwitchIP != '10.30.60.78')]
+
+
+df5 = pd.read_csv('showmacaddress.csv')
+index_names = df5[ (df5['Ports'] == 'Te6/0/38') & (df5['SwitchIP'] == '10.30.60.77')].index
+df5.drop(index_names, inplace = True)
+index_names = df5[ (df5['Ports'] == 'Te1/0/48') & (df5['SwitchIP'] == '10.30.60.78')].index
+df5.drop(index_names, inplace = True)
+df5.to_csv('showmacaddress5.csv', index = False)
+
+## Create new column based on other column values
+## https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/
+
+conditions = [
+    (df5['SwitchIP'] == '10.30.60.65'),
+    (df5['SwitchIP'] == '10.30.60.66'),
+    (df5['SwitchIP'] == '10.30.60.67'),
+    (df5['SwitchIP'] == '10.30.60.68'),
+    (df5['SwitchIP'] == '10.30.60.69'),
+    (df5['SwitchIP'] == '10.30.60.75'),
+    (df5['SwitchIP'] == '10.30.60.76'),
+    (df5['SwitchIP'] == '10.30.60.77'),
+    (df5['SwitchIP'] == '10.30.60.78'),
+    (df5['SwitchIP'] == '10.30.60.79'),
+    (df5['SwitchIP'] == '10.30.60.88')
+    ]
+
+values = ['75T', '159T', '133T', '111-1T', '111-2T', '30T-TC3', '30T-TC1', '30T-TC4', '30T-TC4A', '30T-TC5', '30T-TC6']
+
+df5['Building'] = np.select(conditions, values)
+df5.to_csv('showmacaddress5.csv', index = False)
+df5.to_csv('showmacaddress55.csv', index = False)
+
+
+## Create new column based on other column values
+## https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/
+
+df3 = pd.read_csv('showcdpneighbors.csv')
+
+conditions = [
+    (df3['SwitchIP'] == '10.30.60.65'),
+    (df3['SwitchIP'] == '10.30.60.66'),
+    (df3['SwitchIP'] == '10.30.60.67'),
+    (df3['SwitchIP'] == '10.30.60.68'),
+    (df3['SwitchIP'] == '10.30.60.69'),
+    (df3['SwitchIP'] == '10.30.60.75'),
+    (df3['SwitchIP'] == '10.30.60.76'),
+    (df3['SwitchIP'] == '10.30.60.77'),
+    (df3['SwitchIP'] == '10.30.60.78'),
+    (df3['SwitchIP'] == '10.30.60.79'),
+    (df3['SwitchIP'] == '10.30.60.88')
+    ]
+values = ['75T', '159T', '133T', '111-1T', '111-2T', '30T-TC3', '30T-TC1', '30T-TC4', '30T-TC4A', '30T-TC5', '30T-TC6']
+df3['Building'] = np.select(conditions, values)
+df3.to_csv('showcdpneighbors1.csv', index = False)
+
+
+###########################
+
+
+###  Use below to trim data -x days   COMMAND TO TRIM DATAFRAME
+###
+#  ddff = pd.read_csv("showintcounters_in.csv")
+#           ddff.shape
+#  dataset =ddff 
+#           dataset.shape
+#  uniquedatetable = dataset.drop_duplicates(subset=['Datetime'])
+#  uniquedatetable.to_csv('uniquedatetable.csv', index = False)
+#  uniquedatelist = uniquedatetable['Datetime'].to_list()
+#           uniquedatelist
+#  dfftodrop = ddff[ddff['Datetime'] < uniquedatelist[(len(uniquedatelist)-3)]].index  #### COMMAND TO TRIM DATAFRAME
+#           dfftodrop.shape
+#  ddff.drop(dfftodrop, inplace = True)
+#           dfftodrop.shape
+###
