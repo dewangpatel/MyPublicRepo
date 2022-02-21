@@ -1,0 +1,10 @@
+textfile = open("mytext.txt", "w")
+b=0
+for a in range(len(textlines)):
+	if ("username" in textlines[b]):
+		print("yes")
+		print(b)
+		textfile.write(textlines[b]+"\n")
+	b+=1
+
+textfile.close()
