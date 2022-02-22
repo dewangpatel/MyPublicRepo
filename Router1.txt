@@ -1,0 +1,144 @@
+Building configuration...
+
+  
+Current configuration : 2483 bytes
+!
+! Last configuration change at 04:25:09 UTC Mon Feb 21 2022 by admin
+!
+version 15.7
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname Cisco1921
+!
+boot-start-marker
+boot system flash c1900-universalk9-mz.SPA.157-3.M4a.bin
+boot-end-marker
+!
+!
+enable secret 8 $8$xCifE0Qw3Jb6Ok$wfTXGxNHwk.Uji0eNe27wLlAzqxwcDyPqWYtpa1LO9c
+!
+no aaa new-model
+memory-size iomem 15
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+!
+ip dhcp excluded-address 192.168.5.100 192.168.5.255
+!
+ip dhcp pool mypool
+ network 192.168.5.0 255.255.255.0
+ domain-name mydomain.com
+ default-router 192.168.5.254 
+ dns-server 8.8.8.8 
+!
+!
+!
+ip domain name mcsecisco.com
+ip name-server 8.8.8.8
+ip cef
+no ipv6 cef
+multilink bundle-name authenticated
+!
+!
+cts logging verbose
+!
+!
+license udi pid CISCO1921/K9 sn FJC1922E07U
+license accept end user agreement
+license boot module c1900 technology-package datak9
+!
+!
+username dewangpatel secret 8 $8$.MLMauhKYa4Z5.$VoCQGM6jhE3J/hM2bR8pf0pDZqKaiqTjdFqXwecSE4o
+username dewang secret 8 $8$FOeJwLM7OOjim.$uEjz/IpjITjJGQ.qHepLHByIqHkYptezLKozC7V0skc
+username admin secret 8 $8$hywgeIMTGosz..$aXrAmeBmc35JoYh69Cv/rGiwr8J7bMZ0rImgIj2X9vE
+!
+redundancy
+!
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ ip address dhcp
+ ip nat outside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 192.168.5.254 255.255.255.0
+ ip nat inside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/0/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip dns server
+ip nat inside source list 10 interface GigabitEthernet0/0 overload
+ip route 0.0.0.0 0.0.0.0 192.168.2.1
+!
+ipv6 ioam timestamp
+!
+!
+snmp-server community cisco RW
+snmp-server community public RO
+snmp-server community private RW
+snmp-server enable traps config
+snmp-server host 192.168.5.1 version 2c public 
+access-list 10 permit 192.168.5.0 0.0.0.255
+access-list 10 permit any
+access-list 100 permit udp any any eq bootpc
+access-list 100 permit udp any any eq domain
+!
+control-plane
+!
+!
+line con 0
+ password 7 110A48161442
+ login local
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output lat pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ login local
+ transport input telnet ssh
+!
+scheduler allocate 20000 1000
+!
+end

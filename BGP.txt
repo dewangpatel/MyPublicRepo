@@ -1,0 +1,13 @@
+nbn03corcs01# sh ip bgp sum
+BGP summary information for VRF default, address family IPv4 Unicast
+BGP router identifier 10.163.65.1, local AS number 65055
+BGP table version is 1522, IPv4 Unicast config peers 2, capable peers 2
+8 network entries and 8 paths using 1952 bytes of memory
+BGP attribute entries [6/1032], BGP AS path entries [4/32]
+BGP community entries [0/0], BGP clusterlist entries [0/0]
+4 received paths for inbound soft reconfiguration
+4 identical, 0 modified, 0 filtered received paths using 0 bytes
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+10.99.132.5     4 64940  340872  340446     1522    0    0    12w6d 3
+10.162.128.102  4 64970   99524   99515     1522    0    0     2w3d 1
