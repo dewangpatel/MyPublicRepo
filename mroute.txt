@@ -1,0 +1,19 @@
+IP Multicast Routing Table for VRF "default"
+
+Total number of routes: 399
+Total number of (*,G) routes: 1
+Total number of (S,G) routes: 396
+Total number of (*,G-prefix) routes: 2
+
+(10.163.64.2/32, 239.101.1.0/32), uptime: 33w6d, static(1) pim(0) ip(0) mrib(0)
+  RPF Change only
+  RPF-Source: 10.163.64.2 [0/0]
+  Data Created: No
+  SSM route
+  Nat Mode: Egress
+  Nat Route Type: Pre
+  Stats: 1352912/68998512 [Packets/Bytes], 27.200  bps
+  Stats: Active Flow
+  Incoming interface: Ethernet1/10, RPF nbr: 10.163.64.2
+  LISP dest context id: 0  Outgoing interface list: (count: 1) (bridge-only: 0)
+    loopback10, uptime: 33w6d, static

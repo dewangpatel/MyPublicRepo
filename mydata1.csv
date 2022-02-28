@@ -1,0 +1,434 @@
+,TESTSRESULT,Unnamed: 0,TESTS,RESULT,date
+1,WBC,6.3,,,2018-12-29
+2,RBC,5.58,,,2018-12-29
+3,Hemoglobin,14.7,,,2018-12-29
+4,Hematocrit,43.9,,,2018-12-29
+5,MCV,79.0,,,2018-12-29
+6,MCH,26.3,,,2018-12-29
+7,MCHC,33.5,,,2018-12-29
+8,RDW,14.3,,,2018-12-29
+9,Platelets,202.0,,,2018-12-29
+10,Neutrophils,52.0,,,2018-12-29
+11,Lymphs,36.0,,,2018-12-29
+12,Monocytes,7.0,,,2018-12-29
+13,Eos,5.0,,,2018-12-29
+14,Basos,0.0,,,2018-12-29
+15,Neutrophils (Absolute),3.2,,,2018-12-29
+16,Lymphs (Absolute),2.3,,,2018-12-29
+17,Monocytes(Absolute),0.4,,,2018-12-29
+18,Eos (Absolute),0.3,,,2018-12-29
+19,Baso (Absolute),0.0,,,2018-12-29
+20,Immature Granulocytes,0.0,,,2018-12-29
+21,Immature Grans (Abs),0.0,,,2018-12-29
+3,,,Sodium,137,2018-12-29
+4,,,Potassium,4.8,2018-12-29
+5,,,Chloride,99,2018-12-29
+6,,,"Carbon Dioxide, Total",24,2018-12-29
+7,,,Calcium,9.6,2018-12-29
+8,,,"Protein, Total",7.3,2018-12-29
+9,,,Albumin,4.9,2018-12-29
+10,,,"Globulin, Total",2.4,2018-12-29
+11,,,A/G Ratio,2.0,2018-12-29
+12,,,"Bilirubin, Total",0.5,2018-12-29
+13,,,Alkaline Phosphatase,51,2018-12-29
+14,,,AST (SGOT),23,2018-12-29
+15,,,ALT (SGPT),24,2018-12-29
+16,,,"Urinalysis, Routine",,2018-12-29
+17,,,Urinalysis Gross Exam,,2018-12-29
+18,,,Specific Gravity,1.023,2018-12-29
+19,,,pH,7.5,2018-12-29
+20,,,Urine-Color,Yellow,2018-12-29
+21,,,Appearance,Clear,2018-12-29
+22,,,WBC Esterase,Negative,2018-12-29
+23,,,Protein,Negative,2018-12-29
+24,,,Glucose,Negative,2018-12-29
+25,,,Ketones,Negative,2018-12-29
+26,,,Occult Blood,Negative,2018-12-29
+27,,,Bilirubin,Negative,2018-12-29
+28,,,"Urobilinogen,Semi-Qn",0.2,2018-12-29
+29,,,"Nitrite, Urine",Negative,2018-12-29
+30,,,Microscopic Examination,,2018-12-29
+31,,,Microscopic follows if indicated.,,2018-12-29
+32,,,Lipid Panel,,2018-12-29
+33,,,"Cholesterol, Total",220,2018-12-29
+34,,,Triglycerides,141,2018-12-29
+35,,,HDL Cholesterol,55,2018-12-29
+36,,,VLDL Cholesterol Cal,28,2018-12-29
+37,,,LDL Cholesterol Calc,137,2018-12-29
+38,,,TSH,1.840,2018-12-29
+,TESTSRESULT,Unnamed: 0,TESTS,RESULT,date
+1,WBC6.2,1.0,,,2019-12-21
+2,RBC5.45,1.0,,,2019-12-21
+3,Hemoglobin14.3,1.0,,,2019-12-21
+4,Hematocrit43.4,1.0,,,2019-12-21
+5,MCV80,1.0,,,2019-12-21
+6,MCH26.2,1.0,,,2019-12-21
+7,MCHC32.9,1.0,,,2019-12-21
+8,RDW13.5,1.0,,,2019-12-21
+9,"**Effective January 6, 2020, the RDW pediatric reference**",,,,2019-12-21
+10,interval will be removed and the adult reference interval,,,,2019-12-21
+11,will be changing to:,,,,2019-12-21
+12,,,,,2019-12-21
+13,Platelets225,1.0,,,2019-12-21
+14,Neutrophils59,1.0,,,2019-12-21
+15,Lymphs28,1.0,,,2019-12-21
+16,Monocytes7,1.0,,,2019-12-21
+17,Eos6,1.0,,,2019-12-21
+18,Basos0,1.0,,,2019-12-21
+19,Neutrophils (Absolute)3.6,1.0,,,2019-12-21
+20,Lymphs (Absolute)1.7,1.0,,,2019-12-21
+21,Monocytes(Absolute)0.4,1.0,,,2019-12-21
+22,Eos (Absolute)0.4,1.0,,,2019-12-21
+23,Baso (Absolute)0.0,1.0,,,2019-12-21
+24,Immature Granulocytes0,1.0,,,2019-12-21
+25,Immature Grans (Abs)0.0,1.0,,,2019-12-21
+26,Comp. Metabolic Panel (14),,,,2019-12-21
+27,Glucose88,1.0,,,2019-12-21
+28,BUN14,1.0,,,2019-12-21
+29,Creatinine0.94,1.0,,,2019-12-21
+3,,,eGFR If NonAfricn Am,95,2019-12-21
+4,,,eGFR If Africn Am,110,2019-12-21
+5,,,BUN/Creatinine Ratio,15,2019-12-21
+6,,,Sodium,142,2019-12-21
+7,,,Potassium,5.4,2019-12-21
+8,,,Chloride,103,2019-12-21
+9,,,"Carbon Dioxide, Total",24,2019-12-21
+10,,,Calcium,10.0,2019-12-21
+11,,,"Protein, Total",7.1,2019-12-21
+12,,,Albumin,4.8,2019-12-21
+13,,,"Globulin, Total",2.3,2019-12-21
+14,,,A/G Ratio,2.1,2019-12-21
+15,,,"Bilirubin, Total",0.4,2019-12-21
+16,,,Alkaline Phosphatase,52,2019-12-21
+17,,,AST (SGOT),19,2019-12-21
+18,,,ALT (SGPT),24,2019-12-21
+19,,,"Urinalysis, Routine",,2019-12-21
+20,,,Urinalysis Gross Exam,,2019-12-21
+21,,,Specific Gravity,1.025,2019-12-21
+22,,,pH,6.5,2019-12-21
+23,,,Urine-Color,Yellow,2019-12-21
+24,,,Appearance,Clear,2019-12-21
+25,,,WBC Esterase,Negative,2019-12-21
+26,,,Protein,Negative,2019-12-21
+27,,,Glucose,Negative,2019-12-21
+28,,,Ketones,Negative,2019-12-21
+29,,,Occult Blood,Negative,2019-12-21
+30,,,Bilirubin,Negative,2019-12-21
+31,,,"Urobilinogen,Semi-Qn",0.2,2019-12-21
+32,,,"Nitrite, Urine",Negative,2019-12-21
+33,,,Microscopic Examination,,2019-12-21
+34,,,Microscopic follows if indicated.,,2019-12-21
+35,,,Lipid Panel,,2019-12-21
+36,,,"Cholesterol, Total",212,2019-12-21
+37,,,Triglycerides,110,2019-12-21
+38,,,HDL Cholesterol,58,2019-12-21
+39,,,VLDL Cholesterol Cal,22,2019-12-21
+40,,,LDL Cholesterol Calc,132,2019-12-21
+41,,,TSH,1.950,2019-12-21
+,TESTS,RESULT,date
+1,WBC,5.8,2021-01-23
+2,RBC,5.25,2021-01-23
+3,Hemoglobin,14.2,2021-01-23
+4,Hematocrit,42.8,2021-01-23
+5,MCV,82.0,2021-01-23
+6,MCH,27.0,2021-01-23
+7,MCHC,33.2,2021-01-23
+8,RDW,12.9,2021-01-23
+9,Platelets,201.0,2021-01-23
+10,Neutrophils,47.0,2021-01-23
+11,Lymphs,36.0,2021-01-23
+12,Monocytes,8.0,2021-01-23
+13,Eos,8.0,2021-01-23
+14,Basos,1.0,2021-01-23
+15,Neutrophils (Absolute),2.7,2021-01-23
+16,Lymphs (Absolute),2.1,2021-01-23
+17,Monocytes(Absolute),0.5,2021-01-23
+18,Eos (Absolute),0.5,2021-01-23
+19,Baso (Absolute),0.0,2021-01-23
+20,Immature Granulocytes,0.0,2021-01-23
+21,Immature Grans (Abs),0.0,2021-01-23
+22,Comp. Metabolic Panel (14),,2021-01-23
+23,Glucose,104.0,2021-01-23
+3,Sodium,137,2021-01-23
+4,Potassium,4.5,2021-01-23
+5,Chloride,100,2021-01-23
+6,"Carbon Dioxide, Total",24,2021-01-23
+7,Calcium,9.6,2021-01-23
+8,"Protein, Total",6.7,2021-01-23
+9,Albumin,4.6,2021-01-23
+10,"Globulin, Total",2.1,2021-01-23
+11,A/G Ratio,2.2,2021-01-23
+12,"Bilirubin, Total",0.2,2021-01-23
+13,Alkaline Phosphatase,61,2021-01-23
+14,AST (SGOT),20,2021-01-23
+15,ALT (SGPT),29,2021-01-23
+16,"Urinalysis, Routine",,2021-01-23
+17,Urinalysis Gross Exam,,2021-01-23
+18,Specific Gravity,1.014,2021-01-23
+19,pH,5.0,2021-01-23
+20,Urine-Color,Yellow,2021-01-23
+21,Appearance,Clear,2021-01-23
+22,WBC Esterase,Negative,2021-01-23
+23,Protein,Negative,2021-01-23
+24,Glucose,Negative,2021-01-23
+25,Ketones,Negative,2021-01-23
+26,Occult Blood,Negative,2021-01-23
+27,Bilirubin,Negative,2021-01-23
+28,"Urobilinogen,Semi-Qn",0.2,2021-01-23
+29,"Nitrite, Urine",Negative,2021-01-23
+30,Microscopic Examination,,2021-01-23
+31,Microscopic follows if indicated.,,2021-01-23
+32,Lipid Panel,,2021-01-23
+33,"Cholesterol, Total",201,2021-01-23
+34,Triglycerides,101,2021-01-23
+35,HDL Cholesterol,51,2021-01-23
+36,VLDL Cholesterol Cal,18,2021-01-23
+37,LDL Chol Calc (NIH),132,2021-01-23
+38,TSH,2.280,2021-01-23
+,TESTS,RESULT,date
+1,WBC,5.8,2021-01-23
+2,RBC,5.25,2021-01-23
+3,Hemoglobin,14.2,2021-01-23
+4,Hematocrit,42.8,2021-01-23
+5,MCV,82.0,2021-01-23
+6,MCH,27.0,2021-01-23
+7,MCHC,33.2,2021-01-23
+8,RDW,12.9,2021-01-23
+9,Platelets,201.0,2021-01-23
+10,Neutrophils,47.0,2021-01-23
+11,Lymphs,36.0,2021-01-23
+12,Monocytes,8.0,2021-01-23
+13,Eos,8.0,2021-01-23
+14,Basos,1.0,2021-01-23
+15,Neutrophils (Absolute),2.7,2021-01-23
+16,Lymphs (Absolute),2.1,2021-01-23
+17,Monocytes(Absolute),0.5,2021-01-23
+18,Eos (Absolute),0.5,2021-01-23
+19,Baso (Absolute),0.0,2021-01-23
+20,Immature Granulocytes,0.0,2021-01-23
+21,Immature Grans (Abs),0.0,2021-01-23
+22,Comp. Metabolic Panel (14),,2021-01-23
+23,Glucose,104.0,2021-01-23
+3,Sodium,137,2021-01-23
+4,Potassium,4.5,2021-01-23
+5,Chloride,100,2021-01-23
+6,"Carbon Dioxide, Total",24,2021-01-23
+7,Calcium,9.6,2021-01-23
+8,"Protein, Total",6.7,2021-01-23
+9,Albumin,4.6,2021-01-23
+10,"Globulin, Total",2.1,2021-01-23
+11,A/G Ratio,2.2,2021-01-23
+12,"Bilirubin, Total",0.2,2021-01-23
+13,Alkaline Phosphatase,61,2021-01-23
+14,AST (SGOT),20,2021-01-23
+15,ALT (SGPT),29,2021-01-23
+16,"Urinalysis, Routine",,2021-01-23
+17,Urinalysis Gross Exam,,2021-01-23
+18,Specific Gravity,1.014,2021-01-23
+19,pH,5.0,2021-01-23
+20,Urine-Color,Yellow,2021-01-23
+21,Appearance,Clear,2021-01-23
+22,WBC Esterase,Negative,2021-01-23
+23,Protein,Negative,2021-01-23
+24,Glucose,Negative,2021-01-23
+25,Ketones,Negative,2021-01-23
+26,Occult Blood,Negative,2021-01-23
+27,Bilirubin,Negative,2021-01-23
+28,"Urobilinogen,Semi-Qn",0.2,2021-01-23
+29,"Nitrite, Urine",Negative,2021-01-23
+30,Microscopic Examination,,2021-01-23
+31,Microscopic follows if indicated.,,2021-01-23
+32,Lipid Panel,,2021-01-23
+33,"Cholesterol, Total",201,2021-01-23
+34,Triglycerides,101,2021-01-23
+35,HDL Cholesterol,51,2021-01-23
+36,VLDL Cholesterol Cal,18,2021-01-23
+37,LDL Chol Calc (NIH),132,2021-01-23
+38,TSH,2.280,2021-01-23
+,TESTSRESULT,Unnamed: 0,TESTS,RESULT,date
+1,WBC,6.3,,,2018-12-29
+2,RBC,5.58,,,2018-12-29
+3,Hemoglobin,14.7,,,2018-12-29
+4,Hematocrit,43.9,,,2018-12-29
+5,MCV,79.0,,,2018-12-29
+6,MCH,26.3,,,2018-12-29
+7,MCHC,33.5,,,2018-12-29
+8,RDW,14.3,,,2018-12-29
+9,Platelets,202.0,,,2018-12-29
+10,Neutrophils,52.0,,,2018-12-29
+11,Lymphs,36.0,,,2018-12-29
+12,Monocytes,7.0,,,2018-12-29
+13,Eos,5.0,,,2018-12-29
+14,Basos,0.0,,,2018-12-29
+15,Neutrophils (Absolute),3.2,,,2018-12-29
+16,Lymphs (Absolute),2.3,,,2018-12-29
+17,Monocytes(Absolute),0.4,,,2018-12-29
+18,Eos (Absolute),0.3,,,2018-12-29
+19,Baso (Absolute),0.0,,,2018-12-29
+20,Immature Granulocytes,0.0,,,2018-12-29
+21,Immature Grans (Abs),0.0,,,2018-12-29
+3,,,Sodium,137,2018-12-29
+4,,,Potassium,4.8,2018-12-29
+5,,,Chloride,99,2018-12-29
+6,,,"Carbon Dioxide, Total",24,2018-12-29
+7,,,Calcium,9.6,2018-12-29
+8,,,"Protein, Total",7.3,2018-12-29
+9,,,Albumin,4.9,2018-12-29
+10,,,"Globulin, Total",2.4,2018-12-29
+11,,,A/G Ratio,2.0,2018-12-29
+12,,,"Bilirubin, Total",0.5,2018-12-29
+13,,,Alkaline Phosphatase,51,2018-12-29
+14,,,AST (SGOT),23,2018-12-29
+15,,,ALT (SGPT),24,2018-12-29
+16,,,"Urinalysis, Routine",,2018-12-29
+17,,,Urinalysis Gross Exam,,2018-12-29
+18,,,Specific Gravity,1.023,2018-12-29
+19,,,pH,7.5,2018-12-29
+20,,,Urine-Color,Yellow,2018-12-29
+21,,,Appearance,Clear,2018-12-29
+22,,,WBC Esterase,Negative,2018-12-29
+23,,,Protein,Negative,2018-12-29
+24,,,Glucose,Negative,2018-12-29
+25,,,Ketones,Negative,2018-12-29
+26,,,Occult Blood,Negative,2018-12-29
+27,,,Bilirubin,Negative,2018-12-29
+28,,,"Urobilinogen,Semi-Qn",0.2,2018-12-29
+29,,,"Nitrite, Urine",Negative,2018-12-29
+30,,,Microscopic Examination,,2018-12-29
+31,,,Microscopic follows if indicated.,,2018-12-29
+32,,,Lipid Panel,,2018-12-29
+33,,,"Cholesterol, Total",220,2018-12-29
+34,,,Triglycerides,141,2018-12-29
+35,,,HDL Cholesterol,55,2018-12-29
+36,,,VLDL Cholesterol Cal,28,2018-12-29
+37,,,LDL Cholesterol Calc,137,2018-12-29
+38,,,TSH,1.840,2018-12-29
+,TESTSRESULT,Unnamed: 0,TESTS,RESULT,date
+1,WBC6.2,1.0,,,2019-12-21
+2,RBC5.45,1.0,,,2019-12-21
+3,Hemoglobin14.3,1.0,,,2019-12-21
+4,Hematocrit43.4,1.0,,,2019-12-21
+5,MCV80,1.0,,,2019-12-21
+6,MCH26.2,1.0,,,2019-12-21
+7,MCHC32.9,1.0,,,2019-12-21
+8,RDW13.5,1.0,,,2019-12-21
+9,"**Effective January 6, 2020, the RDW pediatric reference**",,,,2019-12-21
+10,interval will be removed and the adult reference interval,,,,2019-12-21
+11,will be changing to:,,,,2019-12-21
+12,,,,,2019-12-21
+13,Platelets225,1.0,,,2019-12-21
+14,Neutrophils59,1.0,,,2019-12-21
+15,Lymphs28,1.0,,,2019-12-21
+16,Monocytes7,1.0,,,2019-12-21
+17,Eos6,1.0,,,2019-12-21
+18,Basos0,1.0,,,2019-12-21
+19,Neutrophils (Absolute)3.6,1.0,,,2019-12-21
+20,Lymphs (Absolute)1.7,1.0,,,2019-12-21
+21,Monocytes(Absolute)0.4,1.0,,,2019-12-21
+22,Eos (Absolute)0.4,1.0,,,2019-12-21
+23,Baso (Absolute)0.0,1.0,,,2019-12-21
+24,Immature Granulocytes0,1.0,,,2019-12-21
+25,Immature Grans (Abs)0.0,1.0,,,2019-12-21
+26,Comp. Metabolic Panel (14),,,,2019-12-21
+27,Glucose88,1.0,,,2019-12-21
+28,BUN14,1.0,,,2019-12-21
+29,Creatinine0.94,1.0,,,2019-12-21
+3,,,eGFR If NonAfricn Am,95,2019-12-21
+4,,,eGFR If Africn Am,110,2019-12-21
+5,,,BUN/Creatinine Ratio,15,2019-12-21
+6,,,Sodium,142,2019-12-21
+7,,,Potassium,5.4,2019-12-21
+8,,,Chloride,103,2019-12-21
+9,,,"Carbon Dioxide, Total",24,2019-12-21
+10,,,Calcium,10.0,2019-12-21
+11,,,"Protein, Total",7.1,2019-12-21
+12,,,Albumin,4.8,2019-12-21
+13,,,"Globulin, Total",2.3,2019-12-21
+14,,,A/G Ratio,2.1,2019-12-21
+15,,,"Bilirubin, Total",0.4,2019-12-21
+16,,,Alkaline Phosphatase,52,2019-12-21
+17,,,AST (SGOT),19,2019-12-21
+18,,,ALT (SGPT),24,2019-12-21
+19,,,"Urinalysis, Routine",,2019-12-21
+20,,,Urinalysis Gross Exam,,2019-12-21
+21,,,Specific Gravity,1.025,2019-12-21
+22,,,pH,6.5,2019-12-21
+23,,,Urine-Color,Yellow,2019-12-21
+24,,,Appearance,Clear,2019-12-21
+25,,,WBC Esterase,Negative,2019-12-21
+26,,,Protein,Negative,2019-12-21
+27,,,Glucose,Negative,2019-12-21
+28,,,Ketones,Negative,2019-12-21
+29,,,Occult Blood,Negative,2019-12-21
+30,,,Bilirubin,Negative,2019-12-21
+31,,,"Urobilinogen,Semi-Qn",0.2,2019-12-21
+32,,,"Nitrite, Urine",Negative,2019-12-21
+33,,,Microscopic Examination,,2019-12-21
+34,,,Microscopic follows if indicated.,,2019-12-21
+35,,,Lipid Panel,,2019-12-21
+36,,,"Cholesterol, Total",212,2019-12-21
+37,,,Triglycerides,110,2019-12-21
+38,,,HDL Cholesterol,58,2019-12-21
+39,,,VLDL Cholesterol Cal,22,2019-12-21
+40,,,LDL Cholesterol Calc,132,2019-12-21
+41,,,TSH,1.950,2019-12-21
+,TESTS,RESULT,date
+1,WBC,5.8,2021-01-23
+2,RBC,5.25,2021-01-23
+3,Hemoglobin,14.2,2021-01-23
+4,Hematocrit,42.8,2021-01-23
+5,MCV,82.0,2021-01-23
+6,MCH,27.0,2021-01-23
+7,MCHC,33.2,2021-01-23
+8,RDW,12.9,2021-01-23
+9,Platelets,201.0,2021-01-23
+10,Neutrophils,47.0,2021-01-23
+11,Lymphs,36.0,2021-01-23
+12,Monocytes,8.0,2021-01-23
+13,Eos,8.0,2021-01-23
+14,Basos,1.0,2021-01-23
+15,Neutrophils (Absolute),2.7,2021-01-23
+16,Lymphs (Absolute),2.1,2021-01-23
+17,Monocytes(Absolute),0.5,2021-01-23
+18,Eos (Absolute),0.5,2021-01-23
+19,Baso (Absolute),0.0,2021-01-23
+20,Immature Granulocytes,0.0,2021-01-23
+21,Immature Grans (Abs),0.0,2021-01-23
+22,Comp. Metabolic Panel (14),,2021-01-23
+23,Glucose,104.0,2021-01-23
+3,Sodium,137,2021-01-23
+4,Potassium,4.5,2021-01-23
+5,Chloride,100,2021-01-23
+6,"Carbon Dioxide, Total",24,2021-01-23
+7,Calcium,9.6,2021-01-23
+8,"Protein, Total",6.7,2021-01-23
+9,Albumin,4.6,2021-01-23
+10,"Globulin, Total",2.1,2021-01-23
+11,A/G Ratio,2.2,2021-01-23
+12,"Bilirubin, Total",0.2,2021-01-23
+13,Alkaline Phosphatase,61,2021-01-23
+14,AST (SGOT),20,2021-01-23
+15,ALT (SGPT),29,2021-01-23
+16,"Urinalysis, Routine",,2021-01-23
+17,Urinalysis Gross Exam,,2021-01-23
+18,Specific Gravity,1.014,2021-01-23
+19,pH,5.0,2021-01-23
+20,Urine-Color,Yellow,2021-01-23
+21,Appearance,Clear,2021-01-23
+22,WBC Esterase,Negative,2021-01-23
+23,Protein,Negative,2021-01-23
+24,Glucose,Negative,2021-01-23
+25,Ketones,Negative,2021-01-23
+26,Occult Blood,Negative,2021-01-23
+27,Bilirubin,Negative,2021-01-23
+28,"Urobilinogen,Semi-Qn",0.2,2021-01-23
+29,"Nitrite, Urine",Negative,2021-01-23
+30,Microscopic Examination,,2021-01-23
+31,Microscopic follows if indicated.,,2021-01-23
+32,Lipid Panel,,2021-01-23
+33,"Cholesterol, Total",201,2021-01-23
+34,Triglycerides,101,2021-01-23
+35,HDL Cholesterol,51,2021-01-23
+36,VLDL Cholesterol Cal,18,2021-01-23
+37,LDL Chol Calc (NIH),132,2021-01-23
+38,TSH,2.280,2021-01-23

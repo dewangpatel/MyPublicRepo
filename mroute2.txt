@@ -1,0 +1,35 @@
+IP Multicast Routing Table for VRF "default"
+
+Total number of routes: 399
+Total number of (*,G) routes: 1
+Total number of (S,G) routes: 396
+Total number of (*,G-prefix) routes: 2
+
+(10.113.0.1/32, 232.102.7.1/32), uptime: 33w6d, mrib(0) pim(1) ip(0) 
+  RPF-Source: 10.113.0.1 [0/0]
+  Data Created: No
+  SSM route
+  Nat Mode: Invalid
+  Nat Route Type: Invalid
+  VPC Flags
+    RPF-Source Forwarder
+  Stats: 0/0 [Packets/Bytes], 0.000   bps
+  Stats: Inactive Flow
+  Incoming interface: loopback10, RPF nbr: 10.113.0.1
+  LISP dest context id: 0  Outgoing interface list: (count: 1) (bridge-only: 0)
+    Ethernet1/1, uptime: 33w4d, pim
+
+
+(10.113.4.1/32, 232.102.7.1/32), uptime: 2w4d, mrib(1) ip(0) pim(1) 
+  RPF-Source: 10.113.4.1 [0/0]
+  Data Created: No
+  SSM route
+  Nat Mode: Invalid
+  Nat Route Type: Post
+  VPC Flags
+    RPF-Source Forwarder
+  Stats: 1357280/69221280 [Packets/Bytes], 27.200  bps
+  Stats: Active Flow
+  Incoming interface: loopback10, RPF nbr: 10.113.4.1
+  LISP dest context id: 0  Outgoing interface list: (count: 1) (bridge-only: 0)
+    Ethernet1/5, uptime: 15:09:07, mrib, pim

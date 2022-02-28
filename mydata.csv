@@ -1,0 +1,60 @@
+,TESTS,RESULT,FLAG,UNITS  REFERENCE INTERVAL  LAB,Unnamed: 1,UNITS
+1,WBC,5.8,,x10E3/uL 3.4-10.8 01,,
+2,RBC,5.25,,x10E6/uL 4.14-5.80 01,,
+3,Hemoglobin,14.2,,g/dL 13.0-17.7 01,,
+4,Hematocrit,42.8,,% 37.5-51.0 01,,
+5,MCV,82.0,,fL 79-97 01,,
+6,MCH,27.0,,pg 26.6-33.0 01,,
+7,MCHC,33.2,,g/dL 31.5-35.7 01,,
+8,RDW,12.9,,% 11.6-15.4 01,,
+9,Platelets,201.0,,x10E3/uL 150-450 01,,
+10,Neutrophils,47.0,,%   Not Estab. 01,,
+11,Lymphs,36.0,,%   Not Estab. 01,,
+12,Monocytes,8.0,,%   Not Estab. 01,,
+13,Eos,8.0,,%   Not Estab. 01,,
+14,Basos,1.0,,%   Not Estab. 01,,
+15,Neutrophils (Absolute),2.7,,x10E3/uL 1.4-7.0 01,,
+16,Lymphs (Absolute),2.1,,x10E3/uL 0.7-3.1 01,,
+17,Monocytes(Absolute),0.5,,x10E3/uL 0.1-0.9 01,,
+18,Eos (Absolute),0.5,High,x10E3/uL 0.0-0.4 01,,
+19,Baso (Absolute),0.0,,x10E3/uL 0.0-0.2 01,,
+20,Immature Granulocytes,0.0,,%   Not Estab. 01,,
+21,Immature Grans (Abs),0.0,,x10E3/uL 0.0-0.1 01,,
+22,Comp. Metabolic Panel (14),,,,,
+23,Glucose,104.0,High,mg/dL 65-99 01,,
+3,Sodium,137,,,,mmol/L 134-144 01
+4,Potassium,4.5,,,,mmol/L 3.5-5.2 01
+5,Chloride,100,,,,mmol/L 96-106 01
+6,"Carbon Dioxide, Total",24,,,,mmol/L 20-29 01
+7,Calcium,9.6,,,,mg/dL 8.7-10.2 01
+8,"Protein, Total",6.7,,,,g/dL 6.0-8.5 01
+9,Albumin,4.6,,,,g/dL 4.0-5.0 01
+10,"Globulin, Total",2.1,,,,g/dL 1.5-4.5
+11,A/G Ratio,2.2,,,,1.2-2.2
+12,"Bilirubin, Total",0.2,,,,mg/dL 0.0-1.2 01
+13,Alkaline Phosphatase,61,,,,IU/L 39-117 01
+14,AST (SGOT),20,,,,IU/L 0-40 01
+15,ALT (SGPT),29,,,,IU/L 0-44 01
+16,"Urinalysis, Routine",,,,,
+17,Urinalysis Gross Exam,,,,,01
+18,Specific Gravity,1.014,,,,1.005-1.030 01
+19,pH,5.0,,,,5.0-7.5 01
+20,Urine-Color,Yellow,,,,Yellow 01
+21,Appearance,Clear,,,,Clear 01
+22,WBC Esterase,Negative,,,,Negative 01
+23,Protein,Negative,,,,Negative/Trace 01
+24,Glucose,Negative,,,,Negative 01
+25,Ketones,Negative,,,,Negative 01
+26,Occult Blood,Negative,,,,Negative 01
+27,Bilirubin,Negative,,,,Negative 01
+28,"Urobilinogen,Semi-Qn",0.2,,,,mg/dL 0.2-1.0 01
+29,"Nitrite, Urine",Negative,,,,Negative 01
+30,Microscopic Examination,,,,,
+31,Microscopic follows if indicated.,,,,,01
+32,Lipid Panel,,,,,
+33,"Cholesterol, Total",201,High,,,mg/dL 100-199 01
+34,Triglycerides,101,,,,mg/dL 0-149 01
+35,HDL Cholesterol,51,,,,mg/dL >39 01
+36,VLDL Cholesterol Cal,18,,,,mg/dL 5-40
+37,LDL Chol Calc (NIH),132,High,,,mg/dL 0-99
+38,TSH,2.280,,,,uIU/mL   0.450-4.500 01
